@@ -1,0 +1,164 @@
+﻿
+/*this is a css to masterpage*/
+body {
+    color: #574c3f;
+    font-family: Corbel,Arial,Arial, Helvetica, Verdana,sans-serif;
+    font-size: 16px;
+    background-image: url('../image/bg-9-full.jpg');
+}
+
+#wrapper {
+    width:1200px;
+    margin:auto;
+    padding-bottom:20px;
+    background-color:white;
+
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius:20px;
+    
+}
+
+#banner{
+    
+
+}
+
+#navigation{
+    height:40px;
+    background:linear-gradient(to top, #0d9bc6, #ffffff);
+
+}
+
+#content {
+    padding: 20px;
+    min-height: 400px;
+}
+
+#nav1 {
+
+    display:block;
+    list-style:none;
+    text-align:center;
+    
+}
+
+
+
+#nav1 ul{
+    display:none;
+    list-style:none;
+    
+   
+}
+
+#nav1 li{
+    float:left;
+    display:block;
+    margin-top:15px;
+    text-transform:uppercase;
+    padding:0px 20px 0px 20px;
+    border-left:1px solid #FFFFFF;
+}
+
+
+#nav1 a:link, #nav1 a:visited, #nav1 a:active
+{
+    display: block;
+    color:574c3f;
+    text-decoration:none;
+}
+
+#nav1 a:hover{
+    background-color:white;
+}
+
+#aboutus{
+    width:600px;
+    margin-left:280px;
+}
+
+
+ /*this is a css for index page */ 
+
+#ContentPlaceHolder1_pnlproduct div
+{
+    float:left;
+    width:250px;
+    height:250px;
+    text-align:center;
+}
+
+
+
+.productImage
+{
+    width:150px;
+    height:150px;
+    vertical-align:central;
+    padding:10px;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+}
+
+.productName{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.productPrice
+{
+    font-family:Arial,Arial, Helvetica, sans-serif;
+    color:#FFB600;
+}
+
+
+.detailsimage
+{
+    margin-left:20px;
+    margin-right:50px;
+    width:400px;
+    height:400px;
+
+}
+
+.detailDescription
+{
+    width:400px;
+    font-style:italic;
+    
+}
+
+.detailprice
+{
+    font-size:24px;
+    font-weight:bold;
+    margin-left:20px;
+}
+
+
+
+.button
+{
+    padding: 10px;
+    margin: 10px;
+    color:#ffffff;
+    border:0;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    clear:both;
+    background:linear-gradient(to bottom,blue,blue);
+}
+
+
+
+
+
+
+
+
+
+
+
